@@ -12,35 +12,35 @@
     <body class="font-sans">
         <div id="app">
 
-            <div class="container mx-auto">
+            <header class="py-6 px-8 mb-8" style="background: url('/images/splash.svg') 0px 15px no-repeat;">
+                <h1>
 
-                <header class="py-6 mb-8">
-                    <h1>
+                    <img alt="Laracasts" src="/images/logo.svg">
+                    
+                </h1>
+            </header>
 
-                        <img alt="Laracasts" src="/images/logo.svg">
-                        
-                    </h1>
-                </header>
+            <div class="container px-8">
 
                 <main class="flex">
-                    <aside class="w-1/5">
-                        <section class="mb-8">
-                            <h5 class="uppercase font-bold mb-6">The Brand</h5>
+                    <aside class="w-64 pt-8">
+                        <section class="mb-10">
+                            <h5 class="uppercase font-bold mb-3 text-base">The Brand</h5>
                             <ul class="list-reset">
-                                <li class="text-sm pb-4"><router-link class="text-black" :to="{name: 'home'}">Logo</router-link></li>
-                                <li class="text-sm pb-4"><router-link class="text-black" :to="{ name: 'about'}">Logo Symbol</router-link></li>
-                                <li class="text-sm pb-4"><router-link class="text-black" :to="{ name: 'about'}">Colors</router-link></li>
-                                <li class="text-sm pb-4"><router-link class="text-black" :to="{ name: 'about'}">Typography</router-link></li>
+                                <li class="text-sm pb-4"><router-link class="text-black" active-class="font-bold" to="/" exact>Logo</router-link></li>
+                                <li class="text-sm pb-4"><router-link class="text-black" active-class="font-bold" to="/logo-symbol">Logo Symbol</router-link></li>
+                                <li class="text-sm pb-4"><router-link class="text-black" active-class="font-bold" to="/colors">Colors</router-link></li>
+                                <li class="text-sm pb-4"><router-link class="text-black" active-class="font-bold" to="/typography">Typography</router-link></li>
                             </ul>
      
                         </section>
-                        <section class="mb-8 ">
-                            <h5 class="uppercase font-bold mb-6">Doodles</h5>
+                        <section class="mb-10">
+                            <h5 class="uppercase font-bold mb-3 text-base">Doodles</h5>
                             <ul class="list-reset">
-                                <li class="text-sm pb-4"><router-link class="text-black" :to="{name: 'home'}">Mascot</router-link></li>
-                                <li class="text-sm pb-4"><router-link class="text-black" :to="{ name: 'about'}">Illustrations</router-link></li>
-                                <li class="text-sm pb-4"><router-link class="text-black" :to="{ name: 'about'}">Loaders and animations</router-link></li>
-                                <li class="text-sm pb-4"><router-link class="text-black" :to="{ name: 'about'}">Wallpapers </router-link></li>
+                                <li class="text-sm pb-4"><router-link class="text-black" active-class="font-bold" to="/mascot">Mascot</router-link></li>
+                                <li class="text-sm pb-4"><router-link class="text-black" active-class="font-bold" to="/illustrations">Illustrations</router-link></li>
+                                <li class="text-sm pb-4"><router-link class="text-black" active-class="font-bold" to="/loaders-and-animations">Loaders and animations</router-link></li>
+                                <li class="text-sm pb-4"><router-link class="text-black" active-class="font-bold" to="/wallpapers">Wallpapers</router-link></li>
                             </ul>
      
                         </section>
