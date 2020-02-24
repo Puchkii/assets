@@ -3,5 +3,15 @@
 </template>
 
 <script>
-    export default {};
+    export default {
+        mounted() {
+            lottie.loadAnimation({
+                container: this.$refs.lottie,
+                renderer: 'svg',
+                loop: true,
+                autoplay: true,
+                path: '/animations/spinner.json'
+            });
+        }
+    };
 </script>

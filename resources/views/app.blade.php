@@ -20,7 +20,7 @@
                 </h1>
             </header>
 
-            <div class="container px-8">
+            <div class="container px-8 pb-10">
 
                 <main class="flex">
                     <aside class="w-64 pt-8">
@@ -39,7 +39,7 @@
                             <ul class="list-reset">
                                 <li class="text-sm pb-4"><router-link class="text-black" active-class="font-bold" to="/mascot">Mascot</router-link></li>
                                 <li class="text-sm pb-4"><router-link class="text-black" active-class="font-bold" to="/illustrations">Illustrations</router-link></li>
-                                <li class="text-sm pb-4"><router-link class="text-black" active-class="font-bold" to="/loaders-and-animations">Loaders and animations</router-link></li>
+                                <li class="text-sm pb-4"><router-link class="text-black" active-class="font-bold" to="/LoadersAndAnimations">Loaders and animations</router-link></li>
                                 <li class="text-sm pb-4"><router-link class="text-black" active-class="font-bold" to="/wallpapers">Wallpapers</router-link></li>
                             </ul>
      

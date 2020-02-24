@@ -23,13 +23,13 @@
         <div class="mb-10">
             <picture 
                 style="height:382px;" 
-                class="block shadow flex items-center justify-center mb-6 bg-blue"
+                class="block shadow rounded-lg flex items-center justify-center mb-6 bg-blue-500"
             >
                 <img src="/images/negative-logo.svg" alt="logo">
             </picture>
 
             <div class="flex justify-between items-center">
-                <p>Negative Logo on <strong>white</strong> background</p>
+                <p>Negative Logo on <strong>blue</strong> background</p>
 
                 <a 
                     href="/images/negative-logo.svg" 
