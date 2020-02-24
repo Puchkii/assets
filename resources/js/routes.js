@@ -4,18 +4,17 @@ import Colors from './components/Colors';
 import Typography from './components/typography';
 import Mascot from './components/mascot';
 import Illustrations from './components/illustrations';
-// import LoadersAndAnimations from './components/loadersandanimations';
 import Wallpapers from './components/wallpapers';
 import NotFound from './components/NotFound';
 
 
-let LoadersAndAnimations = () => import('./components/LoadersAndAnimations')
+let LoadersAndAnimations = () =>
+    import(/* webpackChunkName: "loaders-and-animations.bundle" */ './components/LoadersAndAnimations');
 
 export default {
     mode: 'history',
 
-    // Niet werkende line. Hoort aan te geven waar je bent op de site door sidemenu locatie font bold te maken
-    // linkActiveClass: 'font-bold',
+    linkActiveClass: 'font-bold',
 
     routes: [
 

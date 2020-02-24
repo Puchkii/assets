@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({}[chunkId]||chunkId) + ".js"
+/******/ 		return __webpack_require__.p + "" + ({"loaders-and-animations.bundle":"loaders-and-animations.bundle"}[chunkId]||chunkId) + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -12889,7 +12889,8 @@ var staticRenderFns = [
         _c(
           "picture",
           {
-            staticClass: "block shadow flex items-center justify-center mb-6",
+            staticClass:
+              "block shadow rounded-lg flex items-center justify-center mb-6",
             staticStyle: { height: "382px" }
           },
           [_c("img", { attrs: { src: "/images/logo.svg", alt: "logo" } })]
@@ -16771,19 +16772,18 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
- // import LoadersAndAnimations from './components/loadersandanimations';
 
 
 
 
 var LoadersAndAnimations = function LoadersAndAnimations() {
-  return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./components/LoadersAndAnimations */ "./resources/js/components/LoadersAndAnimations.vue"));
+  return __webpack_require__.e(/*! import() | loaders-and-animations.bundle */ "loaders-and-animations.bundle").then(__webpack_require__.bind(null, /*! ./components/LoadersAndAnimations */ "./resources/js/components/LoadersAndAnimations.vue"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   mode: 'history',
   // Niet werkende line. Hoort aan te geven waar je bent op de site door sidemenu locatie font bold te maken
-  // linkActiveClass: 'font-bold',
+  linkActiveClass: 'font-bold',
   routes: [{
     path: '*',
     component: _components_NotFound__WEBPACK_IMPORTED_MODULE_7__["default"]

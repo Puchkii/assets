@@ -5,7 +5,7 @@
         </h1>
 
         <div class="mb-10">
-            <picture style="height:382px;" class="block shadow flex items-center justify-center mb-6">
+            <picture style="height:382px;" class="block shadow rounded-lg flex items-center justify-center mb-6">
                 <img src="/images/logo.svg" alt="logo">
             </picture>
 
