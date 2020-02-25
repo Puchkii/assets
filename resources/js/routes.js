@@ -5,6 +5,7 @@ import Typography from './components/typography';
 import Mascot from './components/mascot';
 import Illustrations from './components/illustrations';
 import Wallpapers from './components/wallpapers';
+import SiteStats from './components/SiteStats';
 import NotFound from './components/NotFound';
 
 
@@ -61,6 +62,12 @@ export default {
         {
             path:'/wallpapers',
             component: Wallpapers
+        },
+
+        {
+            path:'/site-stats',
+            component: SiteStats
         } 
+        
     ]
 };
